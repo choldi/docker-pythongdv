@@ -2,6 +2,7 @@ FROM node:alpine
 RUN apk add --no-cache git
 RUN apk add --no-cache openssh
 RUN apk add --no-cache python
+RUN apk add --no-cache py2-crypto
 RUN mkdir /data  
 RUN mkdir /config
 RUN mkdir /u01

@@ -2,8 +2,8 @@ version: '3.4'
 
 services:
   google-video:
-    image: gdv_b:latest
-    container_name: gdv_b
+    image: choldi/docker-pythongdv:latest
+    container_name: gdv
     restart: unless-stopped
     volumes:
       - ./config/gdv/db:/config

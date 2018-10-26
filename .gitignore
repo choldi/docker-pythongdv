@@ -1,2 +1,4 @@
 config/
 docker-compose2.yml
+run-test.sh
+build-test.sh

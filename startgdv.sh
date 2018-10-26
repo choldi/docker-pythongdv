@@ -17,6 +17,5 @@ case "-${STARTMODE}" in
     ;;
 esac
 
-COMMAND="python ${cmd} ${DB}"
-echo "Executing: ${COMMAND}"
-${COMMAND}
+echo "Executing: python ${cmd} ${DB}"
+python ${cmd} ${DB}
